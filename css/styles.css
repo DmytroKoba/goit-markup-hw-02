@@ -1,0 +1,80 @@
+.root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --second-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+.body {
+  color: var(--main-text-color);
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-second-color {
+  color: #000000;
+}
+/*Header*/
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+.contactto-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contactto-list:hover,
+.contactto-list:focus {
+  color: var(--accent-color);
+}
+/*Footer*/
+/*Hero*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  color: var(--second-text-color);
+}
+/*Particularities*/
+/* About */
+/* Team */
+/*Footer*/ ;

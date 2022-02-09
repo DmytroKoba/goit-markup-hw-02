@@ -4,55 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <a href="">WebStudio</a>
+    <header class="page-header">
+      <a href="./index.html" class="logo"><span class="logo-web" lang="en">Web</span><span class="logo-studio" lang="en">Studio</span></a>
       <nav>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" >+38 096 111 11 11</a></li>
+      <ul class="contactto-list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a>
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
         <button type="button">Заказать услугу</button>
       </section>
       <section>
         <h2>Особенности</h2>
-        <ul>
+        <ul class="particularities">
           <li>
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="particularities-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="particularities-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <h3>Планирование</h3>
-            <p>
+            <p class="particularities-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <h3>Современные технологии</h3>
-            <p>
+            <p class="particularities-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -61,7 +70,7 @@
       </section>
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="about">
           <li><img src="./images/box1.jpg" alt="десктоп" width="370" /></li>
           <li><img src="./images/box2.jpg" alt="мобильные" width="370" /></li>
           <li><img src="./images/box3.jpg" alt="планшет" width="370" /></li>
@@ -69,7 +78,7 @@
       </section>
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="team">
           <li>
             <img
               src="./images/productdesigner.jpg"
@@ -77,27 +86,25 @@
               width="270"
             />
             <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p><span class="text" lang="en">Designer</span></p>
           </li>
 
           <li>
             <img
               src="./images/frontenddeveloper.jpg"
               alt="frontend developer photo"
-              width="270"
-            />
+              width="270"/>
             <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <p><span class="text" lang="en">Frontend Developer</span></p>
           </li>
 
           <li>
             <img
               src="./images/marketing.jpg"
               alt="marketing manager photo"
-              width="270"
-            />
+              width="270"/>
             <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p><span class="text" lang="en">Marketing</span></p>
           </li>
 
           <li>
@@ -107,16 +114,17 @@
               width="270"
             />
             <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p><span class="text" lang="en">UI Designer</span></p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="">WebStudio</a>
+      <a href="./index.html" class="logo"><span class="logo-web" lang="en">Web</span><span class="logo-studio"
+          lang="en">Studio</span></a>
       <address>
         <ul>
-          <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <li><a href="https://goo.gl/maps/KaYb87FNYWagWDFd8">г. Киев, пр-т Леси Украинки, 26</a></li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
