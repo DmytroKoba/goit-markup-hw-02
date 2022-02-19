@@ -15,13 +15,12 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <a href="./index.html" class="logo"
-        ><span class="logo-web" lang="en">Web</span
-        ><span class="logo-studio" lang="en">Studio</span></a
+    <header>
+      <a href="./index.html" class="link header-logo"
+        >Web<span class="header-logo-studio">Studio</span></a
       >
-      <nav>
-        <ul class="site-nav">
+      <nav class="header-nav">
+        <ul class="nav-list">
           <li><a href="./index.html" class="link">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
@@ -39,14 +38,22 @@
 
     <main>
       <section class="projects">
-        <h1>Проекты</h1>
+        <h1 class="visually-hidden">Проекты</h1>
 
         <ul class="filter-list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="btn portfolio-btn" type="button">Все</button></li>
+          <li>
+            <button class="btn portfolio-btn" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="btn portfolio-btn" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="btn portfolio-btn" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="btn portfolio-btn" type="button">Маркетинг</button>
+          </li>
         </ul>
 
         <ul class="projects-list">
@@ -57,8 +64,8 @@
                 alt="ноутбук"
                 width="370"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-text">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -69,7 +76,7 @@
                 width="370"
               />
               <h2>Постер<span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <p class="project-text">Дизайн</p>
             </a>
           </li>
           <li>
@@ -80,7 +87,7 @@
                 width="370"
               />
               <h2>Ресторан<span lang="en">Seefood</span></h2>
-              <p>Дизайн</p>
+              <p class="project-text">Дизайн</p>
             </a>
           </li>
           <li>
@@ -91,7 +98,7 @@
                 width="370"
               />
               <h2>Проект<span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <p class="project-text">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -102,7 +109,7 @@
                 width="370"
               />
               <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Дизайн</p>
+              <p class="project-text">Дизайн</p>
             </a>
           </li>
           <li>
@@ -113,21 +120,21 @@
                 width="370"
               />
               <h2><span lang="en">Inspiration has no Borders</span></h2>
-              <p>Веб-сайт</p>
+              <p class="project-text">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a class="link" href="">
               <img src="./images/img7-portfolio.jpg" alt="книга" width="370" />
               <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <p class="project-text">Дизайн</p>
             </a>
           </li>
           <li>
             <a class="link" href="">
               <img src="./images/img8-portfolio.jpg" alt="бэйдж" width="370" />
               <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <p class="project-text">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -138,26 +145,36 @@
                 width="370"
               />
               <h2><span lang="en">Growing Business</span></h2>
-              <p>Дизайн</p>
+              <p class="project-text">Дизайн</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html" class="logo"
-        ><span class="logo-web" lang="en">Web</span
-        ><span class="logo-studio" lang="en">Studio</span></a
+    <footer class="footer">
+      <a href="./index.html" class="link footer-logo"
+        >Web<span class="footer-logo-studio">Studio</span></a
       >
       <address>
-        <ul>
-          <li>
-            <a href="https://goo.gl/maps/KaYb87FNYWagWDFd8"
-              >г. Киев, пр-т Леси Украинки, 26</a
+        <ul class="address">
+          <li class="map">
+            <a
+              class="link"
+              href="https://goo.gl/maps/CRVdqRHMDYzXewq58"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="contact">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact">
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
