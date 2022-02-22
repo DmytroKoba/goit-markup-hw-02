@@ -4,7 +4,7 @@
   --second-text-color: #ffffff;
   --accent-color: #2196f3;
 }
-.body {
+body {
   color: var(--main-text-color);
   background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
@@ -35,9 +35,9 @@ ul {
 .header-logo-studio {
   color: #000000;
 }
-.nav-list > :hover,
-.nav-list > :focus,
-.nav-list > :active {
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-list .link:active {
   color: var(--accent-color);
 }
 .contactto-list {
@@ -48,8 +48,8 @@ ul {
   color: var(--main-text-color);
 }
 
-.contactto-list > :hover,
-.contactto-list > :focus {
+.contactto-list .link:hover,
+.contactto-list .link:focus {
   color: var(--accent-color);
 }
 /*Hero*/
@@ -165,8 +165,8 @@ ul {
 .address {
   font-style: normal;
 }
-.address > :hover,
-.address > :focus {
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 /* Portfolio */
@@ -184,7 +184,7 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.project-tittle {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
